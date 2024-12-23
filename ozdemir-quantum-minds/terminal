@@ -1,0 +1,6 @@
+mkdir ozdemir-quantum-minds
+cd ozdemir-quantum-minds
+npm init -y
+npm install @google-cloud/storage express dotenv 
+npm install
+npm start 

@@ -1,0 +1,28 @@
+{
+  "name": "ozdemir-quantum-minds",
+  "version": "1.0.0",
+  "description": "Ozdemir Quantum Minds Cloud Uygulaması",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "quantum",
+    "cloud",
+    "nodejs"
+  ],
+  "author": "Ozdemir Quantum Minds",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^7.14.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "nodemon": "^3.0.2"
+  }
+}
